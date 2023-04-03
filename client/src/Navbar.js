@@ -33,26 +33,22 @@ const Navbar = () => {
 							 backdrop-filter backdrop-blur-lg bg-opacity-30
 							 md:hover:text-blue-700
 							 dark:hover:text-pink-800
-							 dark:hover:bg-amber-200
 							 md:dark:bg-transparent" aria-current="page">About</Link>
 						</li>
 						<li>
 							<Link to="/projects" class="block py-2 pl-3 pr-4
 							text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:border-0
-							dark:bg-amber-100
 							md:hover:text-blue-700 md:p-0 dark:text-purple-900 md:dark:hover:text-white
 						 dark:hover:bg-amber-200 dark:hover:text-pink-800 md:dark:hover:bg-transparent">Projects</Link>
 						</li>
 						<li>
 							<Link to="/cv" class="block py-2 pl-3 pr-4
 							text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:border-0
-							dark:bg-amber-100
 							md:hover:text-blue-700 md:p-0 dark:text-purple-900 md:dark:hover:text-white
 							 dark:hover:bg-amber-200 dark:hover:text-pink-800 md:dark:hover:bg-transparent">CV</Link>
 						</li>
 						<li>
 							<Link to="/contact" class="block py-2 pl-3 pr-4
-							dark:bg-amber-100
 							 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:border-0
 							 md:hover:text-blue-700 md:p-0 dark:text-purple-900 md:dark:hover:text-white  dark:hover:bg-amber-200 dark:hover:text-pink-800
 							  md:dark:hover:bg-transparent">Contact</Link>
@@ -61,9 +57,6 @@ const Navbar = () => {
 				</div>
 			</div>
 		</nav>
-
-
-
 
 
 		// <nav className="sticky top-0 text-purple-900 py-5 px-7 flex justify-between backdrop-filter backdrop-blur-lg bg-opacity-30">
