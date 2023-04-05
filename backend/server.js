@@ -1,13 +1,20 @@
-// import express from "express";
 
-// const app = express();
+const express = require('express');
+const dotenv = require('dotenv').config();
+const port = 8000;
+const projectsRoute = require('./routes/projectRoutes');
+const { errorHandler } = require('./middleware/errorMiddleware');
 
-// app.get('/', (req,res  => {
-// 	res.send("Server is Ready");
-// }))
+const app = express();
 
-// app.listen(1000, () => {
-// 	console.log("Server at http://localhost:1000");
-// })
+//middleware to take the body of request and parses it into json object
+app.use(express.json());
 
-console.log('Hello World'); 
+app.use('/api/projects', projectsRoute);
+
+//overwrites the default error handler
+app.use(errorHandler);
+
+app.listen(port, ()=> {
+	console.log(`Server started on port ${port}`)
+})
