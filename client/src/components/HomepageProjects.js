@@ -42,8 +42,6 @@ const HomepageProjects = () => {
 						
 				</div>
 			</div>
-
-			
 		</div>
 	
 	</div>
