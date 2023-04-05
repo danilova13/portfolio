@@ -27,7 +27,6 @@ const HomepageProjects = () => {
 				</div>
 			</div>
 
-			 {/* Second project card */}
 			<div className="max-w-sm rounded overflow-hidden shadow-lg m-5">
 				<img className="w-full" src="https://via.placeholder.com/350x200" alt="Project" />
 				<div className="px-6 py-4">
@@ -43,6 +42,8 @@ const HomepageProjects = () => {
 						
 				</div>
 			</div>
+
+			
 		</div>
 	
 	</div>
