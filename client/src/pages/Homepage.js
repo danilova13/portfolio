@@ -1,6 +1,7 @@
 import Technologies from '../components/technologies';
 import myPhoto from '../images/homepage-photo.jpg';
 import HomepageProjects from '../components/HomepageProjects';
+import HomepageContact from '../components/HomepageContact';
 
 
 const Homepage = () => {
@@ -22,11 +23,7 @@ const Homepage = () => {
 
 			<HomepageProjects />
 
-
-			{/* <div className="snap-start w-screen h-screen flex items-center justify-center text-8xl bg-gray-200">Projects</div> */}
-
-
-			<div className="snap-start w-screen h-screen flex items-center justify-center text-8xl bg-pink-200">Contact me</div>
+			<HomepageContact />
 		</div>
 	);
 
