@@ -5,10 +5,13 @@ const port = 8000;
 const projectsRoute = require('./routes/projectRoutes');
 const { errorHandler } = require('./middleware/errorMiddleware');
 const connectDB = require('./config/db');
+const cors = require('cors');
 
 connectDB();
 
 const app = express();
+
+app.use(cors());
 
 //middleware to take the body of request and parses it into json object
 app.use(express.json());

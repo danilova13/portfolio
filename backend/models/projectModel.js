@@ -15,12 +15,12 @@ const projectSchema = new Schema({
 	},
 
 	images: {
-		type: String,
+		type: [String],
 		required: true
 	},
 
 	technologies: {
-		type: String,
+		type: [String],
 		required: true
 	},
 
