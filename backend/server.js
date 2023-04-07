@@ -13,6 +13,8 @@ const app = express();
 
 app.use(cors());
 
+app.use('/images', express.static('photos'));
+
 //middleware to take the body of request and parses it into json object
 app.use(express.json());
 
