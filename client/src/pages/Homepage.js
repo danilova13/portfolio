@@ -13,8 +13,8 @@ const Homepage = () => {
 				</div>
 				<div className="flex-1 text-center">
 					<div>
-						<div className="text-8xl"> Hello! </div>
-						<div className="text-2xl">I am Anya, welcome to my portfolio. </div> 
+						<div className="text-gray-700 font-medium text-8xl"> Hello! </div>
+						<div className="text-gray-700 font-medium text-2xl">I am Anya, welcome to my portfolio. </div> 
 					</div>
 				</div>
 			</div>
