@@ -3,6 +3,7 @@ const colors = require('colors');
 const dotenv = require('dotenv').config();
 const port = 8000;
 const projectsRoute = require('./routes/projectRoutes');
+const cvRoute = require('./routes/cvRoutes');
 const { errorHandler } = require('./middleware/errorMiddleware');
 const connectDB = require('./config/db');
 const cors = require('cors');
@@ -19,6 +20,8 @@ app.use('/images', express.static('photos'));
 app.use(express.json());
 
 app.use('/api/projects', projectsRoute);
+
+app.use('/api/cv', cvRoute);
 
 //overwrites the default error handler
 app.use(errorHandler);
