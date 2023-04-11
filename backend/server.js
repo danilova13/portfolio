@@ -16,6 +16,10 @@ app.use(cors());
 
 app.use('/images', express.static('photos'));
 
+app.get('/', (req, res) => {
+	res.download('./resume.pdf')
+})
+
 //middleware to take the body of request and parses it into json object
 app.use(express.json());
 
