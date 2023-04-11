@@ -8,7 +8,7 @@ const getCV = asyncHandler(async(req, res) => {
 
 	const cv = await CV.find();
 
-	res.status(200).json(cv);
+	res.status(200).json(cv[0]);
 })
 
 //@desc Set cv
