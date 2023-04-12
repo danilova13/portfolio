@@ -33,7 +33,7 @@ const Projects = () => {
 							<p className="text-gray-700 text-base">{project.description}</p>
 						</div>
 						<div className="px-6 py-4 mt-5">
-							<div className="font-semibold text-pink-800 text-base mb-4"> Technologies used </div>
+							<div className="font-semibold text-pink-800 text-base mb-4">Technologies used</div>
 							{project.technologies.map(tech => (
 								<span key={tech} className="inline-block bg-gray-400 rounded-full px-3 py-5 text-sm font-semibold text-gray-700 mr-2">
 									{tech}
@@ -47,7 +47,6 @@ const Projects = () => {
 								</a>
 						</div>
 					</div>
-					
 				</div>
 			</div>
 		))}

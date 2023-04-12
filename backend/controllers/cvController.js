@@ -34,6 +34,7 @@ const setCV = asyncHandler(async(req,res) => {
 		education,
 		experience
 	  });
+	  
 	res.status(200).json(cv);
 })
 
@@ -63,7 +64,7 @@ const deleteCV = asyncHandler(async(req, res) => {
 
 	if (!cv) {
 		res.status(400);
-		throw new Error('Project not found')
+		throw new Error('CV not found')
 	}
 
 	// await project.remove();
