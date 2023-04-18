@@ -1,0 +1,1 @@
+export SENDGRID_API_KEY='SG.G9EiAgSsRy6EyeExAK5HGg.PuX4t74p73o072xE67vJ574Jn9o6OyoHNeGkHZ4bkvw' echo sendgrid.env
