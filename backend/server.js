@@ -22,12 +22,9 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use((req, res, next) => {
-	res.setHeader('Access-Control-Allow-Origin', '*');
-	res.setHeader('Access-Control-Allow-Methods', 'GET', 'POST', 'PUT', 'PATCH', 'DELETE');
-	res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-	next();
-});
+
+//middleware to take the body of request and parses it into json object
+app.use(express.json());
 
 app.get('/api', (req, res) =>  {
 	res.send('API status: running');
@@ -64,13 +61,6 @@ app.post('/api/email', (req, res) => {
 })
 
 app.use('/images', express.static('photos'));
-
-app.get('/', (req, res) => {
-	res.download('./resume.pdf')
-})
-
-//middleware to take the body of request and parses it into json object
-app.use(express.json());
 
 app.use('/api/projects', projectsRoute);
 
