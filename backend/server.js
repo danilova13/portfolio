@@ -15,8 +15,6 @@ connectDB();
 
 sendGrid.setApiKey(process.env.SENDGRID_API_KEY);
 
-console.log('API KEY', process.env.SENDGRID_API_KEY);
-
 
 const app = express();
 
