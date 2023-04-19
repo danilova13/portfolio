@@ -18,9 +18,7 @@ const About = () => {
 
 	return ( 
 	<div >
-		{/* <div className="px-6 py-4">
-			<h1 className="text-pink-800 font-bold text-3xl">Things I Love...</h1>
-		</div> */}
+		
 		{about.activity1.map(activity1 => (
 			<div 
 				key={activity1._id}
@@ -31,7 +29,7 @@ const About = () => {
 							{activity1.images.map(image => (
 								<img key={image} 
 								className="w-auto h-56 mb-5 ml-10" 
-								src={image} 
+								src={`${BASE_API_URL}${image}`} 
 								alt="image"/>
 							))}
 						</div>
@@ -42,6 +40,10 @@ const About = () => {
 					key={activity1._id} 
 					className="px-7 py-4 mb-5 mr-5"
 				>
+					<div className="flex-1 text-center mb-20">
+						<h1 className="text-pink-800 font-bold text-3xl">Things I Love...</h1>
+					</div>
+
 					<div className="flex-1 text-center m-5">
 						<div className="font-bold text-pink-800 text-2xl mb-5">
 								{activity1.name}
@@ -72,7 +74,7 @@ const About = () => {
 						<div className="max-w-sm rounded overflow-hidden shadow-lg m-5">
 								<img key={activity2.images} 
 								className="w-full"
-								src={activity2.images}
+								src={`${BASE_API_URL}${activity2.images}`}
 								alt="image"
 								/>
 								<div className="px-6 py-4">
