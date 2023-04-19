@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { BASE_API_URL } from '../constants';
 
 
 const Projects = () => {
@@ -6,7 +7,7 @@ const Projects = () => {
 	const [ projects, setProjects ] = useState([]);
 
 	useEffect(() => {
-		fetch(`http://localhost:8000/api/projects`)
+		fetch(`${BASE_API_URL}/api/projects`)
 			.then(res => res.json())
 			.then(data => setProjects(prev => data))
 			.catch(err => console.log(err))

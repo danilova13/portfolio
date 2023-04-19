@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { BASE_API_URL } from '../constants';
 
 
 const About = () => {
@@ -9,7 +10,7 @@ const About = () => {
 	});
 
 	useEffect(() => {
-		fetch(`http://localhost:8000/api/about`)
+		fetch(`${BASE_API_URL}/api/about`)
 			.then(res => res.json())
 			.then(data => setAbout(prev => data))
 			.catch(err => console.log(err))

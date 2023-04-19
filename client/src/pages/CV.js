@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import resume from '../images/CV_AnnaDanilova.pdf';
 import fileSaver from "file-saver";
+import { BASE_API_URL } from '../constants';
 
 
 const CV = () => {
@@ -11,14 +12,14 @@ const CV = () => {
 	});
 
 	useEffect(() => {
-		fetch(`http://localhost:8000/api/cv`)
+		fetch(`${BASE_API_URL}/api/cv`)
 			.then(res => res.json())
 			.then(data => setCV(prev => data))
 			.catch(err => console.log(err))
 	}, [])
 
 	const download =(e) => {
-		fetch(`http://localhost:8000/api/cv/download`, {
+		fetch(`${BASE_API_URL}/api/cv/download`, {
 			method: "GET",
 			responseType: "blob"
 		})
