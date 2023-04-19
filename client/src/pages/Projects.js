@@ -23,7 +23,7 @@ const Projects = () => {
 					<div className="flex-1 text-center"> 
 						<div key={project._id}>
 							{project.images.map((image, i) =>(
-								<img key={image} className="w-auto h-56 mb-5 ml-10" src={project.images[i]} alt="image"/>
+								<img key={image} className="w-auto h-56 mb-5 ml-10" src={`${BASE_API_URL}${project.images[i]}`} alt="image"/>
 							))}
 
 						</div>
