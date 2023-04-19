@@ -9,7 +9,7 @@ const { errorHandler } = require('./middleware/errorMiddleware');
 const connectDB = require('./config/db');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const sendGrid = require('@sendGrid/mail');
+const sendGrid = require('@sendgrid/mail');
 
 connectDB();
 
