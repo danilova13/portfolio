@@ -4,7 +4,7 @@ This is my personal portfolio, written in REACT and node.js
 
 ## Technologies
 
-- Frontend: REACT, TailwindCss
+- Frontend: REACT, Tailwind Css
 - Backend: Node.js, Express.js
 - Database: MongoDB, MongoAtlas
 
@@ -20,7 +20,7 @@ To run client
 - 2nd - install the necessary packages: ` npm install`
 - 3rd - start the app: `npm run start`
 
-To runs server
+To run server
 
 - 1st - go to backend directory: `cd backend`
 - 2nd - install the necessary packages: ` npm install`
@@ -28,14 +28,14 @@ To runs server
 
 ## Summary
 
-Things I learned while workign on the app:
+Things I learned while working on the app:
 
 - MERN stack - Express and MongoDB Rest API
 - Serving images using Express
 - Downloading files in Node
 - Use SendGrid platform to send email from the contact form on the contact page
 - Deploy website using Render platform
-- How to keep private keys secure by using environment variables
+- Using environment variables to keep private keys secure
 
 ## Future improvments/implementation
 
