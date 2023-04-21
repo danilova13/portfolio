@@ -18,13 +18,15 @@ To run client
 
 - 1st - go to client directory: `cd client`
 - 2nd - install the necessary packages: ` npm install`
-- 3rd - start the app: `npm run start`
+- 3rd - export required environment variable: `export REACT_APP_BASE_API_URL=http://localhost:8000`
+- 4th - start the app: `npm run start`
 
 To run server
 
 - 1st - go to backend directory: `cd backend`
 - 2nd - install the necessary packages: ` npm install`
 - 3rd - start the app: `npm run server`
+- 4th - export required environment variables: `export MONGO_URI={your_value} SENDGRID_API_KEY={your_value}`
 
 ## Summary
 
