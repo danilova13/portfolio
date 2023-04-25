@@ -9,11 +9,11 @@ const HomepageProjects = () => {
 
 	<div className="snap-start w-screen md:h-screen items-center justify-center bg-gray-200">
 		
-		<div className="px-6 py-4">
-			<h1 className="text-gray-700 font-bold text-3xl"> My Projects </h1>
+		<div className="px-6 py-4 pt-16 text-center">
+			<h1 className=" text-pink-800 font-bold text-3xl pt-10"> My Projects </h1>
 		</div>
 
-		<div className="flex flex-wrap justify-center">
+		<div className="flex flex-wrap justify-center mt-10 pt-8">
 			<div className="flex-none w-80 rounded shadow-lg m-5">
 				<img className="w-full" src={project2Image} alt="Project1" />
 				<div className="px-6 py-4">
