@@ -41,13 +41,13 @@ const Contact = () => {
 	};
 
 	return ( 
-		<div className="snap-start w-screen h-screen flex flex-wrap items-center justify-center bg-gradient-to-br from-orange-200 to-gray-200">
+		<div className="snap-start w-screen h-screen flex flex-wrap items-center justify-center  bg-pink-100">
 			
 			<div className="w-full max-w-md"> 
 				<div className="mb-4 text-center">	
 					<h1 className="text-2xl font-bold mb-4 text-pink-800">Send me a message</h1>
 				</div>
-				<form className="bg-orange-100 shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={sendEmail}>
+				<form className="bg-pink-50 shadow-lg rounded px-8 pt-6 pb-8 mb-4" onSubmit={sendEmail}>
 					<div className="mb-4">
 						<label className="block text-gray-700 text-sm font-bold mb-2">Name</label>
 						<input className="shadow appearance-none border rounded w-full 
