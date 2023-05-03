@@ -4,7 +4,7 @@ import { AiFillLinkedin, AiFillInstagram, AiFillFacebook, AiOutlineMail, AiOutli
 const HomepageContact = () => {
 	return ( 
 
-		<div className="snap-start w-screen h-screen flex flex-row items-center justify-center bg-pink-100">
+		<div className="snap-start w-screen h-screen flex flex-row items-center justify-center bg-pink-50 ">
 			<div className="flex-1 text-center pl-3">
 				<img src={torontoPhoto} alt="Toronto" className="h-full object-cover"/>
 			</div>

@@ -15,7 +15,7 @@ import computerImage from '../images/laptop_thumbnail.png';
 const Technologies = () => {
 	
 	return ( 
-		<div className="snap-start w-screen h-screen flex flex-wrap items-center justify-center bg-blue-200">
+		<div className="snap-start w-screen h-screen flex flex-wrap items-center justify-center bg-blue-100">
 			<div className="flex-1 text-center">
 				<div className=" text-pink-800 font-bold text-4xl"> My tech tools</div>
 				<br />

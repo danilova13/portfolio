@@ -46,7 +46,7 @@ Things I learned while working on the app:
 - In the about page:
   - edit content
   - replace default photos with actual images
-  - Make sure that about page loads from the very first screen (right now it goes to the last page)
 - CV page:
   - Add relevant education and experience
 - Improve the design and positioning of cards in the homepage projects screen
+- create a book covers collage: for inspo refer to this https://joshualoong.com/2019/02/05/Programmatically-Creating-a-500-Book-Cover-Collage/
