@@ -41,7 +41,7 @@ const CV = () => {
 	}
 	  
 	return ( 
-		<div className="snap-start w-screen h-screen items-center justify-left bg-gradient-to-br from-orange-200 to-gray-200" >
+		<div className="snap-start w-screen h-screen items-center justify-left  bg-amber-50" >
 
 			<div className="grid grid-cols-1 pt-20 pl-10">
 				<div className="grid grid-cols-1">

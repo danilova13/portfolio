@@ -17,18 +17,19 @@ const About = () => {
 	}, [])
 
 	return ( 
-	<div >
+	
+	<div className="snap-start  bg-amber-100" >
 		
 		{about.activity1.map(activity1 => (
 			<div 
 				key={activity1._id}
-				className="snap-start w-screen h-screen flex items-center justify-center bg-gradient-to-br from-orange-200 to-gray-200" >
+				className="snap-start w-screen h-screen flex items-center justify-center  bg-amber-50" >
 				<div className="grid grid-cols-1 gap-4">
 					<div className="flex-1 text-center">
 						<div>
 							{activity1.images.map(image => (
 								<img key={image} 
-								className="w-auto h-56 mb-5 ml-10" 
+								className="w-auto h-auto mb-5 mt-10 ml-12 object-cover shadow-xl" 
 								src={`${BASE_API_URL}${image}`} 
 								alt="image"/>
 							))}
@@ -44,12 +45,12 @@ const About = () => {
 						<h1 className="text-pink-800 font-bold text-3xl">Things I Love...</h1>
 					</div>
 
-					<div className="flex-1 text-center m-5">
+					<div className="flex-1 text-center ml-5">
 						<div className="font-bold text-pink-800 text-2xl mb-5">
 								{activity1.name}
 						</div>
-						<p className="text-gray-700 text-base p-5">{activity1.description}</p>
-						<p className="text-gray-700 text-base p-5">
+						<p className="text-gray-700 font-semibold text-base p-2 ml-8">{activity1.description}</p>
+						<p className="text-gray-700 text-base p-2 ml-8">
 							<ul>
 								{activity1.items.map(item => (
 									<li key={item} className="list-disc list-inside">
@@ -64,7 +65,7 @@ const About = () => {
 			</div>
 		))}
 
-		<div className="snap-start w-screen h-screen flex flex-wrap flex-col items-center justify-center bg-gradient-to-br from-orange-200 to-gray-200" >
+		<div className="snap-start w-screen h-screen flex flex-wrap flex-col items-center justify-center  bg-amber-50" >
 			<div className="px-6 py-4">
 				<h1 className="text-pink-900 font-bold text-3xl"> and more ...</h1>
 			</div>
