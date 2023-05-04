@@ -74,7 +74,7 @@ const About = () => {
 					<div key={activity2._id} className="flex justify-center flex-wrap max-w-sm">
 						<div className="max-w-sm rounded overflow-hidden shadow-lg m-5">
 								<img key={activity2.images} 
-								className="w-full"
+								className="w-auto h-auto"
 								src={`${BASE_API_URL}${activity2.images}`}
 								alt="image"
 								/>
