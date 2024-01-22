@@ -7,11 +7,11 @@ const Education = () => {
 				<div className=" text-pink-800 font-bold text-4xl">Education</div>
 				<br />
 				<div className='mr-10 ml-10'>
-					<img src={graduateImage} alt="Computer" />
+					<img className="max-w-xs rounded-full mx-auto" src={graduateImage} alt="Computer" />
 				</div>
 			</div> 
 		
-			<div className="flex-1 text-center">
+			<div className="flex-1 text-center m-5">
 				<div className="flex-1 text-left mb-7 text-xl">
 					<strong>Bachelor of Computer Science,</strong> <i>Algoma University (2022 - 2023)</i>  
 				</div>

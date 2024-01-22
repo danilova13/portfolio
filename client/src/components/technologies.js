@@ -23,7 +23,7 @@ const Technologies = () => {
 				<div className=" text-pink-800 font-bold text-4xl"> Skills</div>
 				<br />
 				<div className='mr-10'>
-					<img src={computerImage} alt="Computer" />
+					<img className="max-w-xs rounded-full mx-auto"  src={computerImage} alt="Computer" />
 				</div>
 			</div> 
 			

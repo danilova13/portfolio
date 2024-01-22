@@ -6,7 +6,7 @@ const HomepageContact = () => {
 
 		<div className="snap-start w-screen h-screen flex flex-row items-center justify-center bg-pink-50 ">
 			<div className="flex-1 text-center pl-3">
-				<img src={torontoPhoto} alt="Toronto" className="h-full object-cover"/>
+				<img className="max-w-xs rounded-full mx-auto" src={torontoPhoto} alt="Toronto" className="h-full object-cover"/>
 			</div>
 
 			<div className="flex-1">
