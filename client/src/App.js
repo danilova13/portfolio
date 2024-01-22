@@ -10,7 +10,7 @@ import Projects from './pages/Projects';
 
 function App() {
   return (
-      <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll">
+      <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll scroll-smooth">
         <Navbar/>
         <div className="container">
           <Routes>

@@ -18,7 +18,7 @@ const About = () => {
 
 	return ( 
 	
-	<div >
+	<div className="snap-start">
 		{about.activity1.map(activity1 => (
 			<div 
 				key={activity1._id}

@@ -2,7 +2,7 @@ import workImage from '../images/workfromhome.webp';
 
 const Experience = () => {
 	return (
-		<div className="snap-start w-screen h-screen flex flex-wrap items-center justify-center bg-purple-50">
+		<div id="experience" className="snap-start w-screen h-screen flex flex-wrap items-center justify-center bg-purple-50">
 			<div className="flex-1 text-center">
 				<div className=" text-pink-800 font-bold text-4xl">Experience</div>
 				<br />

@@ -8,7 +8,7 @@ const HomepageProjects = () => {
 	
 	return ( 
 
-	<div className="snap-start w-screen md:h-screen items-center justify-center bg-gray-200">
+	<div id="projects" className="snap-start w-screen md:h-screen items-center justify-center bg-gray-200">
 		
 		<div className="px-6 py-4 pt-16 text-center">
 			<h1 className=" text-pink-800 font-bold text-3xl pt-10"> Projects </h1>

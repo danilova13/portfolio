@@ -1,4 +1,4 @@
-import Technologies from '../components/technologies';
+import Technologies from '../components/Technologies';
 import myPhoto from '../images/homepage-photo.jpg';
 import HomepageProjects from '../components/HomepageProjects';
 import HomepageContact from '../components/HomepageContact';
@@ -52,6 +52,25 @@ const Homepage = () => {
 							className="inline-block bg-pink-800 rounded-full px-3 py-1 text-sm font-semibold text-white ml-2">
 							Download Resume 
 						</button>
+					</div>
+					
+					<div className="px-6 py-4 mt-5">
+						<div className="font-bold text-[#5E565A] text-xl mb-4">Jump to:</div>
+							<span className="inline-block bg-pink-700 rounded-full px-3 py-5 text-sm font-semibold text-gray-100 mr-2">
+								<a href="#technologies">Skills</a>
+							</span>
+							<span className="inline-block bg-pink-700 rounded-full px-3 py-5 text-sm font-semibold text-gray-100 mr-2">
+								<a href="#projects">Projects</a>
+							</span>
+							<span className="inline-block bg-pink-700 rounded-full px-3 py-5 text-sm font-semibold text-gray-100 mr-2">
+								<a href="#experience">Experience</a>
+							</span>
+							<span className="inline-block bg-pink-700 rounded-full px-3 py-5 text-sm font-semibold text-gray-100 mr-2">
+								<a href="#education">Education</a>
+							</span>
+							<span className="inline-block bg-pink-700 rounded-full px-3 py-5 text-sm font-semibold text-gray-100 mr-2">
+								<a href="#contact">Contact</a>
+							</span>
 					</div>
 				</div>
 			</div>
