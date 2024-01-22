@@ -1,5 +1,5 @@
 import torontoPhoto from '../images/torontoskyline.png';
-import { AiFillLinkedin, AiFillInstagram, AiFillFacebook, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
+import { AiFillLinkedin, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 
 const HomepageContact = () => {
 	return ( 
@@ -14,16 +14,14 @@ const HomepageContact = () => {
           			<h1 className="text-3xl font-bold mb-6  text-pink-800">Contact Me</h1>
 					<div className="text-gray-700 text-lg">
 						<p className="flex items-center">
-						<AiOutlinePhone size={30} className="mr-5"/> 416-899-0465</p>
+							<AiOutlinePhone size={30} className="mr-5"/> 416-899-0465</p>
 						<p className="flex items-center"> 
 							<AiOutlineMail size={30} className="mr-5"/> anyadanilova13@gmail.com</p>
+						<p className="flex items-center"> 
+							<AiFillLinkedin size={30} className="mr-5"/> anyadanilova13@gmail.com</p>
 						<br />
 					</div>
-					<div className="text-gray-700 text-base flex justify-around">
-						<AiFillFacebook size={30} className="mr-5"/>
-						<AiFillInstagram size={30} className="mr-5"/>
-						<AiFillLinkedin size={30} className="mr-5" />
-					</div>
+					
 				</div>
 			</div>
 			

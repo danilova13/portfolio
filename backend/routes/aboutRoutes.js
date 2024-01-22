@@ -5,10 +5,10 @@ const { getAbout, setAbout, updateAbout, deleteAbout } = require(`../controllers
 
 router2.get('/', getAbout);
 
-router2.post('/', setAbout);
+// router2.post('/', setAbout);
 
-router2.put('/:id', updateAbout);
+// router2.put('/:id', updateAbout);
 
-router2.delete('/:id', deleteAbout);
+// router2.delete('/:id', deleteAbout);
 
 module.exports = router2;

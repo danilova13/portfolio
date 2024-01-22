@@ -4,11 +4,11 @@ const { getProjects, setProject, updateProject, deleteProject } = require('../co
 
 router.get('/', getProjects);
 
-router.post('/', setProject);
+// router.post('/', setProject);
 
-router.put('/:id', updateProject);
+// router.put('/:id', updateProject);
 
-router.delete('/:id', deleteProject);
+// router.delete('/:id', deleteProject);
 
 
 module.exports = router; 

@@ -39,17 +39,17 @@ const About = () => {
 
 				<div 
 					key={activity1._id} 
-					className="px-7 py-4 mb-5 mr-5"
+					className="px-7 py-4 mr-5 ml-5"
 				>
 					<div className="flex-1 text-center mb-20">
 						<h1 className="text-pink-800 font-bold text-3xl">Things I Love...</h1>
 					</div>
 
-					<div className="flex-1 text-center ml-5">
-						<div className="font-bold text-pink-800 text-2xl mb-5">
+					<div className="flex-1 text-left ml-5">
+						<div className="font-bold text-pink-800 text-center text-2xl mb-5">
 								{activity1.name}
 						</div>
-						<p className="text-gray-700 font-semibold text-base p-2 ml-8">{activity1.description}</p>
+						<p className="text-gray-700 font-semibold text-center text-base p-2 ml-8">{activity1.description}</p>
 						<p className="text-gray-700 text-base p-2 ml-8">
 							<ul>
 								{activity1.items.map(item => (
