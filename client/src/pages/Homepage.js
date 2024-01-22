@@ -1,4 +1,4 @@
-import Technologies from '../components/Technologies';
+import Technologies from '../components/Skills';
 import myPhoto from '../images/homepage-photo.jpg';
 import HomepageProjects from '../components/HomepageProjects';
 import HomepageContact from '../components/HomepageContact';
@@ -57,7 +57,7 @@ const Homepage = () => {
 					<div className="px-6 py-4 mt-5">
 						<div className="font-bold text-[#5E565A] text-xl mb-4">Jump to:</div>
 							<span className="inline-block bg-pink-700 rounded-full px-3 py-5 text-sm font-semibold text-gray-100 mr-2">
-								<a href="#technologies">Skills</a>
+								<a href="#skills">Skills</a>
 							</span>
 							<span className="inline-block bg-pink-700 rounded-full px-3 py-5 text-sm font-semibold text-gray-100 mr-2">
 								<a href="#projects">Projects</a>
