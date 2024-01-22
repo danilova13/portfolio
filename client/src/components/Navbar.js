@@ -6,10 +6,9 @@ const Navbar = () => {
 	const [isNavOpen, setIsNavOpen] = useState(false);
 	const navClassName = `${isNavOpen ? "" : "hidden"} w-full md:block md:w-auto`
 	const navItems = [
-		{path: '/about', name: 'About'},
 		{path: '/projects', name: 'Projects'},
-		{path: '/cv', name: 'CV'},
-		{path: '/Contact', name: 'Contact'},
+		{path: '/hobbies', name: 'Hobbies'},
+		{path: '/contact', name: 'Contact'},
 	];
 
 	const toggleNav = () => setIsNavOpen((prev) => !prev);

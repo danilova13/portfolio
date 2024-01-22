@@ -10,15 +10,14 @@ import Projects from './pages/Projects';
 
 function App() {
   return (
-      <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll">
+      <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll scroll-smooth">
         <Navbar/>
         <div className="container">
           <Routes>
             <Route path="/" element={ <Homepage/>} />
-            <Route path="/about" element={ <About/>} />
+            <Route path="/hobbies" element={ <About/>} />
             <Route path="/contact" element={ <Contact/>} />
             <Route path="/projects" element={ <Projects/>} />
-            <Route path="/cv" element={ <CV/>} />
           </Routes>
         </div>
       </div>

@@ -19,7 +19,7 @@ const Projects = () => {
 	<div>
     	{projects.map(project => (
 			<div className="snap-start w-screen h-screen flex items-center justify-center bg-gray-50" > 
-				<div className="grid grid-cols-2 gap-4">
+				<div className="grid lg:grid-cols-2 md:grid-cols-1 gap-4">
 					<div className="flex-1 text-center"> 
 						<div key={project._id}>
 							{project.images.map((image, i) =>(
