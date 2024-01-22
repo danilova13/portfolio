@@ -11,7 +11,6 @@ const Projects = () => {
 			.then(res => res.json())
 			.then(data => setProjects(prev => data))
 			.catch(err => console.log(err))
-			
 	}, [])
 
 	return ( 
