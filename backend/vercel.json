@@ -6,19 +6,7 @@
 		"use": "@vercel/node"
 	  },
 	  {
-		"src": "*.jpg", 
-		"use": "@vercel/static"
-	  },
-	  {
-		"src": "*.jpeg", 
-		"use": "@vercel/static"
-	  },
-	  {
-		"src": "*.png", 
-		"use": "@vercel/static"
-	  },
-	  {
-		"src": "*.webp", 
+		"src": "photos/*", 
 		"use": "@vercel/static"
 	  }
 	],
