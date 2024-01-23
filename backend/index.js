@@ -10,6 +10,7 @@ const connectDB = require('./config/db');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const sendGrid = require('@sendgrid/mail');
+const path = require('path');
 
 connectDB();
 
@@ -58,7 +59,7 @@ app.post('/api/email', (req, res) => {
 		})
 })
 
-app.use('/images', express.static('photos'));
+app.use('/images', express.static(path.resolve(__dirname, 'photos')));
 
 app.use('/api/projects', projectsRoute);
 
