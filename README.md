@@ -26,7 +26,7 @@ To run server
 - 1st - go to backend directory: `cd backend`
 - 2nd - install the necessary packages: ` npm install`
 - 3rd - start the app: `npm run server`
-- 4th - export required environment variables: `export MONGO_URI={your_value} SENDGRID_API_KEY={your_value}`
+- 4th - export required environment variables: `export MONGODB_URI={your_value} SENDGRID_API_KEY={your_value}`
 
 ## Summary
 
