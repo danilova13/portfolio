@@ -1,7 +1,6 @@
 import jsIcon from '../images/icons8-javascript-48.png';
 import reactIcon from '../images/icons8-react-50.png';
 import javaIcon from '../images/icons8-java-48.png';
-import springBootIcon from '../images/icons8-spring-boot-48.png';
 import html5Icon from '../images/icons8-html-5-48.png';
 import css3Icon from '../images/icons8-css3-48.png';
 import tailwindCssIcon from '../images/icons8-tailwind-css-48.png';
@@ -67,12 +66,6 @@ const Technologies = () => {
 						<img src={ javaIcon } alt="Java"/>	
 						<div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity"> 
 							<span className="bg-gray-500 text-white rounded-lg py-1 px-3 text-sm">Java</span>
-						</div>
-					</div>
-					<div className='relative'>
-						<img src={ springBootIcon } alt="SpringBoot"/>	
-						<div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity"> 
-							<span className="bg-gray-500 text-white rounded-lg py-1 px-3 text-sm">Spring Boot</span>
 						</div>
 					</div>
 					<div className='relative'>
