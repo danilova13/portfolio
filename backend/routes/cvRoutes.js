@@ -13,7 +13,7 @@ router1.get('/', getCV);
 // router1.delete('/:id', deleteCV)
 
 router1.get('/download', (req, res) => {
-	res.download(path.resolve(__dirname, '../resume.pdf'))
+	res.download(path.resolve(__dirname, '../cv.pdf'))
 })
 
 
